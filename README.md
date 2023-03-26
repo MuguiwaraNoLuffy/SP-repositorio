@@ -5,17 +5,17 @@ Complete con exito el juego Lear Git Branching
 
 # PRINCIPAL
 
-# 1.1 Introduction to Git Commits
+## 1.1 Introduction to Git Commits
 
 ### git commit
 ### git commit
 
-# 1.2 Branching in Git
+## 1.2 Branching in Git
 
 ### git branch bugFix
 ### git checkout bugFix
 
-# 1.3 Merging in Git
+## 1.3 Merging in Git
 
 ### git checkout -b bugFix
 ### git commit
@@ -23,7 +23,7 @@ Complete con exito el juego Lear Git Branching
 ### git commit
 ### git merge bugFix
 
-# 1.4 Rebase Introduction
+## 1.4 Rebase Introduction
 
 ### git checkout -b bugFix
 ### git commit
@@ -32,36 +32,36 @@ Complete con exito el juego Lear Git Branching
 ### git checkout bugFix
 ### git rebase main
 
-# 2.1 Detach yo’ HEAD
+## 2.1 Detach yo’ HEAD
 
 ### git checkout C4
 
-# 2.2 Relative refs (^)
+## 2.2 Relative refs (^)
 
 ### git checkout C4^
 
-# 2.3 Relative refs #2
+## 2.3 Relative refs #2
 
 ### git branch -f main C6
 ### git branch -f bugFix C0
 ### git checkout C1
 
-# 2.4 Reversing Changes in Git
+## 2.4 Reversing Changes in Git
 
 ### git reset local~1
 ### git checkout pushed
 ### git revert pushed
 
-# 3.1 Cherry-pick Intro
+## 3.1 Cherry-pick Intro
 
 ### git cherry-pick C3 C4 C7
 
-# 3.2 Interactive Rebase Intro
+## 3.2 Interactive Rebase Intro
 
 ### git rebase -i main~4 --aboveAll
 #### Ordené las commit en C3, C5, C4, luego omiti la C2.
 
-# 4.1 Grabbing Just 1 Commit
+## 4.1 Grabbing Just 1 Commit
 
 ### git checkout main
 ### git cherry-pick C4
@@ -191,24 +191,24 @@ Complete con exito el juego Lear Git Branching
 ### git push origin main
 ### git push origin foo
 
-# 2.5 Git push arguments — Expanded!
+## 2.5 Git push arguments — Expanded!
 
 ### git push origin main~1:foo
 ### git push origin foo:main
 
-# 2.6 Fetch arguments
+## 2.6 Fetch arguments
 
 ### git fetch origin main~1:foo
 ### git fetch origin foo:main
 ### git checkout foo
 ### git merge main
 
-# 2.7 Source of nothing
+## 2.7 Source of nothing
 
 ### git push origin :foo
 ### git fetch origin :bar
 
-# 2.8 Pull arguments
+## 2.8 Pull arguments
 
 ### git pull origin bar:foo
 ### git pull origin main:side
