@@ -66,7 +66,7 @@ Complete con exito el juego Lear Git Branching
 ### git checkout main
 ### git cherry-pick C4
 
-# 4.2 Juggling Commits
+## 4.2 Juggling Commits
 
 ### git rebase -i caption~2 --aboveAll
 #### Aqui ordene C3, C2.
@@ -75,35 +75,35 @@ Complete con exito el juego Lear Git Branching
 #### Aqui ordene C2, C3.
 ### git branch -f main caption
 
-# 4.3 Juggling Commits #2
+## 4.3 Juggling Commits #2
 
 ### git checkout main
 ### git cherry-pick C2
 ### git commit --amend
 ### git cherry-pick C3
 
-# 4.4 Git Tags
+## 4.4 Git Tags
 
 ### git tag v0 C1
 ### git tag v1 C2
 ### git checkout C2
 
-# 4.5 Git Describe
+## 4.5 Git Describe
 
 ### git commit
 
-# 5.1 Rebasing over 9000 times
+## 5.1 Rebasing over 9000 times
 
 ### git rebase main bugFix
 ### git rebase bugFix side
 ### git rebase side another
 ### git rebase another main
 
-# 5.2 Multiple parents
+## 5.2 Multiple parents
 
 ### git branch bugWork main~^2~
 
-# 5.3 Branch Spaghetti
+## 5.3 Branch Spaghetti
 
 ### git checkout one
 ### git cherry-pick C4 C3 C2
@@ -113,39 +113,39 @@ Complete con exito el juego Lear Git Branching
 
 # REMOTA
 
-# 1.1 Clone Intro
+## 1.1 Clone Intro
 
 ### git clone
 
-# 1.2 Remote Branches
+## 1.2 Remote Branches
 
 ### git commit
 ### git checkout o/main
 ### git commit
 
-# 1.3 Git Fetchin
+## 1.3 Git Fetchin
 
 ### git fetch
 
-# 1.4 Git Pullin
+## 1.4 Git Pullin
 
 ### git pull
 
-# 1.5 Fakeing Teamwork
+## 1.5 Fakeing Teamwork
 
 ### git clone
 ### git fakeTeamwork main 2
 ### git commit
 ### git pull
 
-# 1.6 Git Pushin
+## 1.6 Git Pushin
 
 ### git clone
 ### git commit
 ### git commit
 ### git push
 
-# 1.7 Diverged History
+## 1.7 Diverged History
 
 ### git clone
 ### git fakeTeamwork
@@ -153,7 +153,7 @@ Complete con exito el juego Lear Git Branching
 ### git pull --rebase
 ### git push
 
-# 1.8 Locked Main
+## 1.8 Locked Main
 
 ### git checkout -b feature
 ### git checkout main
@@ -161,7 +161,7 @@ Complete con exito el juego Lear Git Branching
 ### git push origin feature
 ### git checkout feature
 
-# 2.1 Push Main!
+## 2.1 Push Main!
 
 ### git fetch
 ### git rebase o/main side1
@@ -170,7 +170,7 @@ Complete con exito el juego Lear Git Branching
 ### git rebase side3 main
 ### git push
 
-# 2.2 Mering with remotes
+## 2.2 Mering with remotes
 
 ### git checkout main
 ### git pull
@@ -179,14 +179,14 @@ Complete con exito el juego Lear Git Branching
 ### git merge side3
 ### git push
 
-# 2.3 Remoting Tracking
+## 2.3 Remoting Tracking
 
 ### git checkout -b side o/main
 ### git commit
 ### git pull --rebase
 ### git push
 
-# 2.4 Git push arguments
+## 2.4 Git push arguments
 
 ### git push origin main
 ### git push origin foo
